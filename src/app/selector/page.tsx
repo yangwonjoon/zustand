@@ -2,7 +2,7 @@
 
 import { NoSelector } from "@/components/selector/NoSelector";
 import { UseSelector } from "@/components/selector/UseSelector";
-import { useSelectorStore } from "@/stores/selectorStore";
+import { useSelectorStore } from "@/stores/selector/selectorStore";
 
 const SelectorTestPage = () => {
   const increment = useSelectorStore((state) => state.increment);

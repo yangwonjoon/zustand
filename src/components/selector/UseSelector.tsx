@@ -1,6 +1,6 @@
 "use client";
 
-import { useSelectorStore } from "@/stores/selectorStore";
+import { useSelectorStore } from "@/stores/selector/selectorStore";
 
 export function UseSelector() {
   const count = useSelectorStore((state) => state.count);

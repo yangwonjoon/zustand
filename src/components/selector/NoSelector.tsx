@@ -1,4 +1,4 @@
-import { useSelectorStore } from "@/stores/selectorStore";
+import { useSelectorStore } from "@/stores/selector/selectorStore";
 
 export function NoSelector() {
   const count = useSelectorStore.use.count();
